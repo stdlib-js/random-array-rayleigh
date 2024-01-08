@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-rayleigh@deno/mod.js';
+import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-rayleigh@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-rayleigh@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-rayleigh@v0.1.0-deno/mod.js';
 ```
 
 #### rayleigh( len, sigma\[, options] )
@@ -336,7 +336,7 @@ var sz = random.byteLength;
 
 ```javascript
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
-import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-rayleigh@deno/mod.js';
+import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-rayleigh@v0.1.0-deno/mod.js';
 
 // Create a function for generating random arrays originating from the same state:
 var random = rayleigh.factory( 2.0, {
